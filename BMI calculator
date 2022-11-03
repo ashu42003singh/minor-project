@@ -1,0 +1,16 @@
+# BMI calculator 
+print("welcome to the BMI calculator")
+user_name = input("your name \n")
+height = input("your height in m\n")
+weight = input("your weight in kg\n")
+
+HEIGHT = float(height)
+WEIGHT = int(weight)
+BMI = WEIGHT//(HEIGHT)**2
+print(BMI)
+if BMI > 25 :
+  print(( user_name + " you are a thanksgiving turkey"))
+else:
+ if BMI < 25 and BMI > 18.5 :  
+   print((user_name   ) + " you are healthy")
+
